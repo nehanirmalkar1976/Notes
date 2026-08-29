@@ -1,0 +1,4 @@
+Power BI is a business intelligence and data visualization platform by Microsoft that turns raw data into interactive reports and dashboards.
+Core WorkflowConnect: Pull data from Excel, SQL databases, or cloud services.
+Transform: Clean and shape data using Power Query.Model: Build table relationships and use Data Analysis Expressions (DAX) for calculations.
+Visualize: Drag and drop fields into charts, maps, and tables.Share: Publish reports to the Power BI Service for team
