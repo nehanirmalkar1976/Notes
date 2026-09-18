@@ -1,0 +1,26 @@
+1. Introduction to MySQL
+MySQL is a widely-used Relational Database Management System (RDBMS) that utilizes Structured Query Language (SQL) to interact with databases. It is known for its ACID compliance, which ensures reliable transaction processing.
+
+Atomicity: Ensures that a transaction is all-or-nothing. If any part of the transaction fails, the entire transaction is rolled back.
+
+Durability: Guarantees that once a transaction is committed, it remains so even in the event of a system crash.
+
+Get Vinay Chhabra’s stories in your inbox
+Join Medium for free to get updates from this writer.
+
+Enter your email
+Subscribe
+
+Remember me for faster sign in
+
+MySQL is employed in numerous applications, including WordPress, Facebook, and various e-commerce platforms.
+
+Note: This blog serves as a revision guide for key MySQL concepts and functions, providing quick references and examples for effective learning.
+
+2. MySQL Architecture
+MySQL architecture is composed of several key components:
+
+Storage Engine Layer: This layer is responsible for data storage and retrieval.
+InnoDB (default engine): Supports transactions and foreign keys, allowing for complex relationships between tables. For example, deleting a customer in a database can automatically delete associated orders.
+MyISAM: Optimized for read-heavy operations but lacks support for transactions and foreign keys, making it suitable for applications that prioritize read performance.
+Buffer Pool: This component caches frequently accessed data in memory, significantly improving query performance.
