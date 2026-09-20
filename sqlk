@@ -1,0 +1,7 @@
+MySQL is a popular, open-source Relational Database Management System (RDBMS) that uses Structured Query Language 
+(SQL) to manage and manipulate data organized into tables.🗂️ Core ConceptsDatabase: A structured collection of interrelated data.Table:
+A structure within a database consisting of rows (records) and columns (attributes/fields).
+SQL Language: A non-case-sensitive language used to perform CRUD (Create, Read, Update, Delete) operations on data
+Common Data TypesMySQL supports predefined data types to model table structures effectively:INT: Whole numbers (integers).DECIMAL:
+Precise fixed-point decimal numbers.VARCHAR(size): Variable-length text strings 
+(specify maximum size).DATE / DATETIME: Calendar dates and exact timestamps
