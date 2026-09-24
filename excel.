@@ -1,0 +1,4 @@
+. Data Cleaning and PreparationBack up data: Always duplicate your raw data sheet before making changes.Remove duplicates:
+Select your dataset, go to the Data tab, and click Remove Duplicates.Format as a Table: Press Ctrl + T to convert ranges into official tables, 
+enabling automated styling and structured references.Clean text and values:
+Use functions like TRIM to remove extra spaces and PROPER to fix text capitalization
