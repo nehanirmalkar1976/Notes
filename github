@@ -1,0 +1,13 @@
+Uploading in GitHub (often referred to as pushing code) is the process of sending your local project files, code, 
+and folders from your computer to a remote repository hosted on GitHub. 
+This allows you to safely back up your work, track changes over time, and collaborate with other developers.
+1. Using the GitHub Web Interface (Easiest for Beginners)
+If you have a small project or a few files, you can upload them directly through your web browser without using any code tools
+ Using Git and the Command Line (Standard for Developers)
+For larger projects and regular updates, developers install a tool called Git on their computers to upload files using terminal commands:
+Step	Command	What It Does
+1. Initialize	git init	Prepares your local project folder to start tracking changes.
+2. Stage	git add .	Gathers all the files in your folder, preparing them to be saved.
+3. Commit	git commit -m "My first upload"	Permanently saves a snapshot of the files on your local computer.
+4. Link	git remote add origin <URL>	Links your local folder to your empty GitHub repository link.
+5. Push	git push -u origin main	Uploads the committed files straight to your GitHub profile.
